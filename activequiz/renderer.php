@@ -300,6 +300,7 @@ class mod_activequiz_renderer extends plugin_renderer_base {
         if ($this->rtq->is_instructor()) {
             $output .= html_writer::div($this->render_controls(), 'activequizbox hidden', array('id' => 'controlbox'));
             $output .= $this->render_jumpto_modal($attempt);
+			//Edited by pst team
             $instructions = '<h3>Participants: <b>'.($session->get_users_count()). '</b></h3><p>(Please reload the page to update this number)</p>'.get_string('instructorquizinst', 'activequiz').($session->get_users_list());
         } else {
             $instructions = get_string('studentquizinst', 'activequiz');
