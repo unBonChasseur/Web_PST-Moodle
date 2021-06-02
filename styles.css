@@ -144,14 +144,18 @@
     display: none;
 }
 
-/** Added by pst team**/
-.activequizbox .btn{
+/*Added by pst team*/
+
+.activequizbox .btn:not(.btn-link)
+{
 	background-color: #008CBA;
 	color: white;
 	margin: 5px;
 	padding: 10px;
-	border-radius: 15px;
+	border-radius: 15px;	
 }
+
+
 
 .activequizbox .btn:disabled{
 	color: white;
