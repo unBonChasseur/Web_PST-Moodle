@@ -679,6 +679,8 @@ class activequiz_session {
         return $DB->get_records_sql($sql, array('sessionid' => $this->session->id));
     }
 
+
+	//Added by pst team
 	public function get_users_count() {
 		global $DB;
 
@@ -690,7 +692,7 @@ class activequiz_session {
 
         return count($DB->get_records_sql($sql, array('sessionid' => $this->session->id)))-1;
 	}
-
+	//Added by pst team
 	public function get_users_list() {
 		global $USER,$DB;
 
