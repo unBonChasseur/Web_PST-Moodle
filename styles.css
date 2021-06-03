@@ -155,7 +155,10 @@
 	border-radius: 15px;	
 }
 
-
+.activequizbox .modulespecificbuttonscontainer
+{
+    display:none;
+}
 
 .activequizbox .btn:disabled{
 	color: white;
