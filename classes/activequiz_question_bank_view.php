@@ -40,7 +40,7 @@ class activequiz_question_bank_view extends \core_question\bank\view {
 
         $defaultqbankcolums = array(
             'question_bank_add_to_rtq_action_column',
-            'checkbox_column',
+            //'checkbox_column',
             'question_type_column',
             'question_name_column',
             'preview_action_column',
@@ -100,7 +100,7 @@ class activequiz_question_bank_view extends \core_question\bank\view {
         $this->display_question_list($this->contexts->having_one_edit_tab_cap($tabname),
             $this->baseurl, $cat, $this->cm,
             null, $page, $perpage, $showhidden, $showquestiontext,
-            $this->contexts->having_cap('moodle/question:add'));
+        $this->contexts->having_cap('moodle/question:add'));
     }
 
 
