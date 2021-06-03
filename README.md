@@ -1,4 +1,4 @@
-# Active Quiz
+# Active Quiz update for Moodle 3.9
 
 ## What is it?
 This is a type of quiz designed to be used in face-to-face lessons, with a classroom full of computers/tablets/phones.
@@ -13,34 +13,48 @@ Once the teacher is satisfied that all students have connected to the quiz, they
 Depending on the question settings the question will end automatically, or will need to be ended via the instructor's
 "end question" button.
 
-
 The teacher can, at a later date, go back through the results and, for each question, see exactly what answer each
-student gave.  Students will also be able to view their attempts based on the display options in the quiz settings
+student gave.  Students will also be able to view their attempts based on the display options in the quiz settings.
+(Active Quiz ReadMe)
+
+Updates :
+  - fixed endless timer by disabling unnecessary buttons on specific context
+  - style by adding bigger blue buttons
+  - deletion of some buttons not interacting with the question bank (delete question, move, ...)
+  - ...
+
+New features : 
+  - connected students counter at the beginning of the session
+  - connected students' name at the beginning of the session
 
 
 ## Installation:
-
-### Moodle plugins directory
-
-Click on "Install now" within the plugins directory, and then select your site from the list of "My sites"
-
-### Manually
 
 Unzip all the files into a temporary directory.
 Copy the 'activequiz' folder into 'moodlehomedir/mod'.
 The system administrator should then log in to moodle and click on the 'Notifications' link in the Site administration
 block.
+(Active Quiz ReadMe)
+
+### Or
+
+Move to : Site administration -> plugins -> install plugins -> install plugins from ZIP file.
+Drag and drop the ZIP file.
+Click on 'show more' and select 'Activity Module (mod)' for the 'plugin type'.
+Install it.
+
 
 ## Uninstalling:
-Delete the module from the 'Activities' module list in the admin section.
+Move to : Site administration -> plugins -> plugins overview.
+Uninstall it.
 
-## Feedback:
+## Feedback for original Active Quiz plugin:
 
 You can contact me (John Hoopes) at moodle@madisoncreativeweb.com
 You can contact Davo Smith on 'moodle AT davosmith DOT co DOT uk, or at http://www.davosmith.co.uk/contact.php
 
-This module is provided as is by John Hoopes and the University of Wisconsin released under the same license of Moodle (GPL v3)
-
+The original module is provided as is by John Hoopes and the University of Wisconsin released under the same license of Moodle (GPL v3)
+(Active Quiz ReadMe)
 
 ## Please note
 
@@ -59,3 +73,4 @@ The original plugin was written by Davo Smith, to which the University of Wiscon
 use the question engine integration as well as a bunch of other new features.
 
 This plugin is maintained by John Hoopes separately from the University.
+(Active Quiz ReadMe)
